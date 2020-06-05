@@ -1,0 +1,152 @@
+.main-container{
+    /* margin-top: 10%; */
+    margin: 10%;
+}
+
+.welcome{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    height: 200px;
+    background: linear-gradient(247.27deg, #19CBD7 17.98%, rgba(18, 244, 136, 0.92) 185.62%);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.welcome img{
+    margin-left: 75%;
+    margin-top: -13%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.welcome-msg{
+    margin-left: 3%;
+    color: white;
+}
+/* .navbar{
+    float: left;
+    display: flex;
+    margin-left: 20px;
+    flex: 1;
+    justify-content: space-between;
+    align-self: center;
+    
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background: red;
+} */
+
+.heading{
+    margin-left: 25%;
+
+}
+
+.contact{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3%;
+    color: black;
+}
+.contact-info{
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+.details{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Profile-Picture{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-right: 3%;
+}
+
+
+/* scrolled vedios */
+
+.vedios{
+    margin-top: 5%;
+    padding-bottom: 3%;
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.vedioslider{
+    display: block;
+    white-space: nowrap;
+}
+
+.vedio-container{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.vediobox{
+    width: 500px;
+    height: 350px;
+    background: #1B1B1B;
+    border-radius: 40px;
+}
+
+.pla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background: #FFFFFF;
+    margin-left: 80%;
+    margin-top: 40%;
+}
+/* scrolled vedios end */
+.discription{
+    color: white;
+
+    padding-top: 5%;
+    margin-left: 5%;
+    font-size: large;
+    font-style: oblique;
+
+}
+
+
+
+/* main-scrollbar-mod */
+*::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.portions{
+    padding: 5%;
+}
+
