@@ -26,6 +26,10 @@
     margin-bottom: 10%;
     color: white;
 }
+
+.welcome-msg p{
+    font-size: medium; font-style: italic;
+}
 /* .navbar{
     float: left;
     display: flex;
@@ -81,7 +85,7 @@
     margin: 5%;
     padding-bottom: 3%;
     display: block;
-    width: 80%;
+    width: 90%;
     overflow-x: scroll;
 }
 
@@ -169,7 +173,9 @@
     text-decoration: none;
 }
 
-
+footer {
+    margin-left: 45%;
+}
 @media only screen and (max-width: 1300px)
 {
     .syllabus{
@@ -187,6 +193,7 @@
     .syllabus{
         margin-left: 0%;
         padding-top: 5%;
+        text-align: center;
     }
 
     .syllabus object{
@@ -226,6 +233,7 @@
         margin-left: 3%;
         margin-bottom: 10%;
         color: white;
+        
     }
 
     .details{
@@ -239,4 +247,20 @@
     .vedios{
         display: none
     }
+    .Profile-Picture{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 5%;
+        margin-right: 3%;
+    }
+
+    footer{
+        margin-left: 30%;
+    }
+    .welcome-msg p{
+        font-size: small; font-style: italic;
+    }
+   
+    
 }
