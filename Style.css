@@ -269,7 +269,7 @@ footer {
         border-radius: 0px;
     }
     .welcome img{
-        margin-left: 20%;
+        margin-left: 27%;
         margin-top: -30%;
         width: 200px;
         height: 200px;
@@ -277,8 +277,8 @@ footer {
     }
     
     .welcome-msg{
-        text-align: justify;
-        margin-left: 3%;
+        text-align: center;
+        margin-left: 0%;
         margin-bottom: 10%;
         color: white;
         
