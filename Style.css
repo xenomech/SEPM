@@ -288,6 +288,7 @@ footer {
     .welcome-msg p{
         font-size: 18px; 
         font-style: italic;
+        margin: auto auto;
     }
     .welcome-msg h1{
         font-size: 25px;
