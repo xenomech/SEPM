@@ -324,9 +324,9 @@ footer {
     }
 
     .links{
-        margin: 10%;
+        margin: 5%;
         padding: 15%;
-        font-size: large;
+        font-size: 20px;
         font-style: italic;
         text-decoration: none;
         background: rgba(27, 27, 27, 0.6);
@@ -342,11 +342,11 @@ footer {
         padding: 0%;
     }
     
-    .portions h2 ,p {
+    .portions h2 ,.portions p {
         background: rgba(27, 27, 27, 0.6);
         border-radius: 40px 40px 40px 5px;
-        margin: 10%;
-        padding: 10%;
+        margin: 5%;
+        padding: 15%;
         color: white;
     }
     .portions p {
