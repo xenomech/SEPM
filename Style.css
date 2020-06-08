@@ -1,6 +1,17 @@
-.main-container{
-    /* margin-top: 10%; */
-    margin: 10%;
+
+.contact{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3%;
+    color: black;
+}
+.contact-info{
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: none;
 }
 
 .welcome{
@@ -30,6 +41,13 @@
 .welcome-msg p{
     font-size: medium; font-style: italic;
 }
+
+.main-container{
+    /* margin-top: 10%; */
+    margin: 11%;
+}
+
+
 /* .navbar{
     float: left;
     display: flex;
@@ -44,39 +62,39 @@
     background: red;
 } */
 
-.heading{
-    margin-left: 25%;
-
-}
-
-.contact{
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    align-items: center;
-    margin: 3%;
-    color: black;
-}
-.contact-info{
-    color: black;
-    font-size: 20px;
-    font-style: oblique;
-    text-decoration: none;
-}
-
-.details{
+.details1{
     display: flex;
     flex: 1;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 5%;
 }
-.Profile-Picture{
+.Profile-Picture1{
     height: 200px;
     width: 200px;
     border-radius: 50%;
     margin-left: 10%;
     margin-right: 3%;
 }
+
+.details2{
+    text-align: right;
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.Profile-Picture2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
+
 
 
 /* scrolled vedios */
@@ -118,7 +136,7 @@
     margin-left: 80%;
     margin-top: 40%;
 }
-/* scrolled vedios end */
+
 .discription{
     color: white;
 
@@ -127,6 +145,53 @@
     font-size: large;
     font-style: oblique;
 
+}
+/* scrolled vedios end */
+
+
+.portions{
+    padding: 5%;
+}
+
+.portions h2 ,.portions p {
+    background: rgba(27, 27, 27, 0.6);
+    border-radius: 40px 40px 40px 5px;
+    /* margin-right:60%; */
+    padding: 3%;
+    color: white;
+}
+.portions p {
+    font-size: large;
+}
+
+.syllabus{
+    margin-left: 20%;
+    padding-top: 5%;
+}
+
+.syllabus object{
+    width: 80%;
+    height: 1000px;
+}
+
+.links{
+    margin-left: 60%;
+    /* margin-right:60%; */
+    padding: 3%;
+    font-size: large;
+    font-style: italic;
+    text-decoration: none;
+    background: rgba(27, 27, 27, 0.6);
+    border-radius: 40px 40px 5px 40px;
+    color: white;
+}
+.links a{
+    text-decoration:none;
+    color: white;
+}
+
+footer {
+    margin-left: 45%;
 }
 
 
@@ -152,30 +217,6 @@
 	background-color: #555;
 }
 
-.portions{
-    padding: 5%;
-}
-
-.syllabus{
-    margin-left: 20%;
-    padding-top: 5%;
-}
-
-.syllabus object{
-    width: 80%;
-    height: 1000px;
-}
-
-.links{
-
-    font-size: large;
-    font-style: italic;
-    text-decoration: none;
-}
-
-footer {
-    margin-left: 45%;
-}
 @media only screen and (max-width: 1300px)
 {
     .syllabus{
@@ -189,7 +230,10 @@ footer {
 }
 
 @media only screen and (max-width: 500px)
-{
+{   *{
+        margin: 0;
+        padding: 0;
+    }
     .syllabus{
         margin-left: 0%;
         padding-top: 5%;
@@ -216,13 +260,13 @@ footer {
 
     .welcome{
         margin-top: 30%;
-        margin-left: 10%;
+        margin-left: 0%;
         padding-bottom: 1%;
-        width: 80%;
+        width: 100%;
         height: 80%;
         background: linear-gradient(247.27deg, #19CBD7 17.98%, rgba(18, 244, 136, 0.92) 185.62%);
-        box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
-        border-radius: 30px;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
     }
     .welcome img{
         margin-left: 20%;
@@ -233,13 +277,21 @@ footer {
     }
     
     .welcome-msg{
+        text-align: justify;
         margin-left: 3%;
         margin-bottom: 10%;
         color: white;
         
     }
+    .welcome-msg p{
+        font-size: 20px; 
+        font-style: italic;
+    }
+    .welcome-msg h1{
+        font-size: 25px;
+    }
 
-    .details{
+    .details1,.details2{
         display: flex;
         flex: 1;
         justify-content: flex-start;
@@ -250,7 +302,15 @@ footer {
     .vedios{
         display: none
     }
-    .Profile-Picture{
+    .Profile-Picture1{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 5%;
+        margin-right: 3%;
+        margin-bottom: 20px ;
+    }
+    .Profile-Picture2{
         height: 200px;
         width: 200px;
         border-radius: 50%;
@@ -262,12 +322,37 @@ footer {
     footer{
         margin-left: 30%;
     }
-    .welcome-msg p{
-        font-size: small; font-style: italic;
+
+    .links{
+        margin: 10%;
+        padding: 15%;
+        font-size: large;
+        font-style: italic;
+        text-decoration: none;
+        background: rgba(27, 27, 27, 0.6);
+        border-radius: 40px 40px 5px 40px;
+        color: white;
     }
-    .welcome-msg h1{
-        font-size: medium;
+    .links a{
+        text-decoration:none;
+        color: white;
     }
+
+    .portions{
+        padding: 0%;
+    }
+    
+    .portions h2 ,p {
+        background: rgba(27, 27, 27, 0.6);
+        border-radius: 40px 40px 40px 5px;
+        margin: 10%;
+        padding: 10%;
+        color: white;
+    }
+    .portions p {
+        font-size: large;
+    }
+
    
     
 }
