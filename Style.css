@@ -246,8 +246,8 @@ footer {
 
 @media only screen and (max-width: 500px)
 {   *{
-        margin: 0;
-        padding: 0;
+        /* margin: 0;
+        padding: 0; */
     }
     .syllabus{
         /* margin-left: 0%; */
@@ -375,11 +375,13 @@ footer {
 
     .yt-container{
         /* margin: 4% 10% 0% 10%; */
+        margin: 0;
+        padding: 0;
         display: grid;
         justify-content: center;
         align-items: center;
-        grid-template-rows: 150px 150px 150px 150px;
-        grid-template-columns: 250px 250px;
+        grid-template-rows: repeat(9, 150px);
+        grid-template-columns: 400px;
         grid-gap: 0px;
     }
 
