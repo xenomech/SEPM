@@ -203,9 +203,12 @@ footer {
 
 .yt-container{
     /* margin: 4% 10% 0% 10%; */
-    display: flexbox;
-    
+    display: grid;
+    justify-content: center;
     align-items: center;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 0px;
 }
 
 /* main-scrollbar-mod */
@@ -232,7 +235,7 @@ footer {
 @media only screen and (max-width: 1300px)
 {
     .syllabus{
-        margin-left: 0%;
+        /* margin-left: 0%; */
         padding-top: 5%;
     }
     .syllabus object{
@@ -247,7 +250,7 @@ footer {
         padding: 0;
     }
     .syllabus{
-        margin-left: 0%;
+        /* margin-left: 0%; */
         padding-top: 5%;
         margin-bottom: 5%;
         text-align: center;
@@ -368,6 +371,16 @@ footer {
     }
     .portions p {
         font-size: large;
+    }
+
+    .yt-container{
+        /* margin: 4% 10% 0% 10%; */
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-rows: 150px 150px 150px;
+        grid-template-columns: 150px 150px 150px;
+        grid-gap: 0px;
     }
 
    
