@@ -203,6 +203,7 @@ footer {
 
 .yt-container{
     /* margin: 4% 10% 0% 10%; */
+    margin-top: 5%;
     display: grid;
     justify-content: center;
     align-items: center;
